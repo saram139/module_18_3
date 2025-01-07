@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Platform</title>
+</head>
+<body>
+    <h1>{{title}}</h1>
+    <ul>
+        {% for game in games %}
+            <li><h2>{{ game }} 
+                <button>Купить</button></h2>
+            </li>
+        {% endfor %}
+    </ul>
+    <button><a href="http://127.0.0.1:8000/platform">Вернуться на главную</a></button>
+</body>
+</html>
